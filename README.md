@@ -53,7 +53,7 @@
 1. Clone the repository
 
 ```bash
-git clone https://github.com/f-bautista/boilerplate.git
+git clone https://github.com/f-bautista/boilerplate-react.git
 ```
 
 2. Install dependencies
