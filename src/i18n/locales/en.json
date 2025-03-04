@@ -1,0 +1,24 @@
+{
+  "global": {
+    "title": "App",
+    "counter": "Counter",
+    "theme": {
+      "current": "Current theme:",
+      "toggle": "Toggle theme",
+      "toggleHint": "Try toggling the theme to see how this component adapts!"
+    },
+    "colors": {
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "accent": "Accent"
+    },
+    "debug": {
+      "themeChange": "This text should change color with the theme toggle."
+    }
+  },
+  "notFound": {
+    "title": "Oops!",
+    "message": "Sorry, an unexpected error has occurred.",
+    "backToHome": "Back to home page"
+  }
+}

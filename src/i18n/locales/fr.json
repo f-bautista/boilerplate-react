@@ -1,0 +1,24 @@
+{
+  "global": {
+    "title": "Appliquer",
+    "counter": "Comptoir",
+    "colors": {
+      "accent": "Accent",
+      "primary": "Primaire",
+      "secondary": "Secondaire"
+    },
+    "debug": {
+      "themeChange": "Ce texte devrait changer de couleur avec la bascule du thème."
+    },
+    "theme": {
+      "current": "Thème actuel:",
+      "toggle": "Thème de basculement",
+      "toggleHint": "Essayez de basculer le thème pour voir comment ce composant s'adapte!"
+    }
+  },
+  "notFound": {
+    "title": "Oops !",
+    "message": "Désolé, une erreur inattendue s'est produite.",
+    "backToHome": "Retour à la page d'accueil"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "global": {
+    "title": "Aplicación",
+    "counter": "Contador",
+    "colors": {
+      "accent": "Acento",
+      "primary": "Primario",
+      "secondary": "Secundario"
+    },
+    "debug": {
+      "themeChange": "Este texto debe cambiar el color con el tema de la alternancia."
+    },
+    "theme": {
+      "current": "Tema actual:",
+      "toggle": "Tema de alternar",
+      "toggleHint": "¡Intente alternar el tema para ver cómo se adapta este componente!"
+    }
+  },
+  "notFound": {
+    "title": "¡Ups!",
+    "message": "Lo sentimos, ha ocurrido un error inesperado.",
+    "backToHome": "Volver a la página de inicio"
+  }
+}
