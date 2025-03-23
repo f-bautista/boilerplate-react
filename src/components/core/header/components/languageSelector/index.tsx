@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 
 import { Popover, PopoverContent, PopoverTrigger } from '../../../popOver'
 
-import { LANGUAGES } from 'src/i18n/config'
+import { LANGUAGES } from 'src/lib/constants'
 
 import { ChevronDown } from 'lucide-react'
 import i18next from 'i18next'

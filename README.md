@@ -1,4 +1,4 @@
-# React Boilerplate ShadcnUI, TanStack Router, TanStack Query, Zustand, i18next
+# React Boilerplate with ShadcnUI, TanStack Router, TanStack Query, Zustand, i18next
 
 ## Features
 
@@ -9,9 +9,10 @@
 - 🌐 Internationalization support via i18next
 - 🐻 Efficient state management with Zustand
 - 🧭 Type-safe routing implemented with TanStack Router
-- 🔍 Server side state management with TanStack Query
+- 🔍 Server-side state management with TanStack Query
 - 💨 Modern styling architecture with Tailwind CSS
 - ✅ Code quality enforcement through ESLint, Prettier
+- 🔐 Authentication with Supabase
 
 ## Project Structure
 
@@ -20,21 +21,17 @@
 ├── src/
 │   ├── components/
 │   │   ├── core/
-│   │   │   ├── componentName/
-│   │   │   ├── componentName/
-│   │   │   └── componentName/
-│   │   ├── counter/
-│   │   └── layout/
+│   │   └── componentName/
+│   ├── hooks/
 │   ├── i18n/
-│   │   ├── locales/
-│   │   └── types/
-│   ├── layout/
-│   │   └── pages/
-│   │       ├── pageName/
-│   │       └── pageName/
+│   │   └── locales/
 │   ├── lib/
+│   ├── queries/
+│   ├── routes/
+│   │   ├── layout/
+│   │   └── pages/
 │   ├── store/
-│   │   ├── counter/
+│   │   ├── storeName/
 │   │   └── theme/
 │   └── styles/
 ```
@@ -47,13 +44,14 @@
 - [Zustand](https://zustand.docs.pmnd.rs/)
 - [i18next](https://www.i18next.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Supabase](https://supabase.com/)
 
 ## Usage
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/f-bautista/boilerplate-react.git
+git clone https://github.com/f-bautista/boilerplate.git
 ```
 
 2. Install dependencies

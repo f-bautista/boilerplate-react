@@ -13,26 +13,14 @@ const Counter = () => {
       <h1 className="mb-6 text-center text-xl font-bold text-foreground md:text-2xl">{t('global.counter')}</h1>
       <div className="flex flex-col items-center justify-center gap-4">
         <div className="flex items-center gap-4 md:gap-6">
-          <Button
-            variant="outline"
-            size="icon"
-            onClick={decrement}
-            className="h-10 w-10 transition-all hover:bg-accent md:h-12 md:w-12"
-          >
-            <MinusCircle className="h-5 w-5 text-foreground md:h-6 md:w-6" />
+          <Button variant="outline" size="icon" onClick={decrement} className="h-10 w-10 md:h-12 md:w-12">
+            <MinusCircle className="h-5 w-5 md:h-6 md:w-6" />
           </Button>
 
-          <div className="min-w-14 text-center text-3xl font-bold text-foreground transition-colors md:min-w-16 md:text-4xl">
-            {count}
-          </div>
+          <div className="min-w-14 text-center text-3xl font-bold md:min-w-16 md:text-4xl">{count}</div>
 
-          <Button
-            variant="outline"
-            size="icon"
-            onClick={increment}
-            className="h-10 w-10 transition-all hover:bg-accent md:h-12 md:w-12"
-          >
-            <PlusCircle className="h-5 w-5 text-foreground md:h-6 md:w-6" />
+          <Button variant="outline" size="icon" onClick={increment} className="h-10 w-10 md:h-12 md:w-12">
+            <PlusCircle className="h-5 w-5 md:h-6 md:w-6" />
           </Button>
         </div>
 

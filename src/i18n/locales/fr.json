@@ -1,24 +1,35 @@
 {
+  "auth": {
+    "alreadyHaveAccount": "Vous avez déjà un compte? \nSe connecter",
+    "email": "Adresse e-mail",
+    "needAccount": "Besoin d'un compte? \nS'inscrire",
+    "password": "Mot de passe",
+    "signIn": "Se connecter",
+    "signOut": "Se déconnecter",
+    "signUp": "Inscrivez-vous à votre compte",
+    "processing": "Traitement...",
+    "confirmationEmailSent": "Un e-mail de confirmation a été envoyé. Veuillez vérifier votre boîte de réception et confirmer pour vous connecter."
+  },
   "global": {
-    "title": "Appliquer",
-    "counter": "Comptoir",
     "colors": {
       "accent": "Accent",
       "primary": "Primaire",
       "secondary": "Secondaire"
     },
+    "counter": "Compteur",
     "debug": {
-      "themeChange": "Ce texte devrait changer de couleur avec la bascule du thème."
+      "themeChange": "Ce texte devrait changer de couleur avec le changement de thème."
     },
     "theme": {
-      "current": "Thème actuel:",
-      "toggle": "Thème de basculement",
-      "toggleHint": "Essayez de basculer le thème pour voir comment ce composant s'adapte!"
-    }
+      "current": "Thème actuel :",
+      "toggle": "Changer de thème",
+      "toggleHint": "Essayez de basculer le thème pour voir comment ce composant s'adapte !"
+    },
+    "title": "Application"
   },
   "notFound": {
-    "title": "Oops !",
+    "backToHome": "Retour à la page d'accueil",
     "message": "Désolé, une erreur inattendue s'est produite.",
-    "backToHome": "Retour à la page d'accueil"
+    "title": "Oups !"
   }
 }

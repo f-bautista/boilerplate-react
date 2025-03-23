@@ -1,24 +1,35 @@
 {
+  "auth": {
+    "alreadyHaveAccount": "¿Ya tienes una cuenta? \nIniciar sesión",
+    "email": "Correo electrónico",
+    "needAccount": "¿Necesitas una cuenta? \nInscribirse",
+    "password": "Contraseña",
+    "signIn": "Iniciar sesión",
+    "signOut": "Cerrar sesión",
+    "signUp": "Regístrese en su cuenta",
+    "processing": "Tratamiento...",
+    "confirmationEmailSent": "Se ha enviado un correo electrónico de confirmación. Por favor, revise su bandeja de entrada y confirme para iniciar sesión."
+  },
   "global": {
-    "title": "Aplicación",
-    "counter": "Contador",
     "colors": {
       "accent": "Acento",
       "primary": "Primario",
       "secondary": "Secundario"
     },
+    "counter": "Contador",
     "debug": {
-      "themeChange": "Este texto debe cambiar el color con el tema de la alternancia."
+      "themeChange": "Este texto debería cambiar de color con el cambio de tema."
     },
     "theme": {
       "current": "Tema actual:",
-      "toggle": "Tema de alternar",
-      "toggleHint": "¡Intente alternar el tema para ver cómo se adapta este componente!"
-    }
+      "toggle": "Cambiar tema",
+      "toggleHint": "¡Intenta cambiar el tema para ver cómo se adapta este componente!"
+    },
+    "title": "Aplicación"
   },
   "notFound": {
-    "title": "¡Ups!",
+    "backToHome": "Volver a la página principal",
     "message": "Lo sentimos, ha ocurrido un error inesperado.",
-    "backToHome": "Volver a la página de inicio"
+    "title": "¡Ups!"
   }
 }

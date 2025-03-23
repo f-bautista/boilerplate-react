@@ -1,9 +1,16 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { ThemeProvider } from './routes/layout/themeProvider'
+import { Router } from './routes'
 import './i18n/config'
-import { ThemeProvider } from './components/layout/themeProvider'
-import { Router } from './layout/routes'
 
-const queryClient = new QueryClient()
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      retry: 1,
+      refetchOnWindowFocus: false,
+    },
+  },
+})
 
 const App = () => {
   return (

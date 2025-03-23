@@ -1,24 +1,35 @@
 {
+  "auth": {
+    "alreadyHaveAccount": "Already have an account? Sign in",
+    "email": "Email address",
+    "needAccount": "Need an account? Sign up",
+    "password": "Password",
+    "processing": "Processing...",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "signUp": "Sign up for your account",
+    "confirmationEmailSent": "A confirmation email has been sent. Please check your inbox and confirm to login."
+  },
   "global": {
-    "title": "App",
+    "colors": {
+      "accent": "Accent",
+      "primary": "Primary",
+      "secondary": "Secondary"
+    },
     "counter": "Counter",
+    "debug": {
+      "themeChange": "This text should change color with the theme toggle."
+    },
     "theme": {
       "current": "Current theme:",
       "toggle": "Toggle theme",
       "toggleHint": "Try toggling the theme to see how this component adapts!"
     },
-    "colors": {
-      "primary": "Primary",
-      "secondary": "Secondary",
-      "accent": "Accent"
-    },
-    "debug": {
-      "themeChange": "This text should change color with the theme toggle."
-    }
+    "title": "App"
   },
   "notFound": {
-    "title": "Oops!",
+    "backToHome": "Back to home page",
     "message": "Sorry, an unexpected error has occurred.",
-    "backToHome": "Back to home page"
+    "title": "Oops!"
   }
 }
